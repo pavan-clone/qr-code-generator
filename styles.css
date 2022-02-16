@@ -1,0 +1,59 @@
+body
+{
+    background-color: #d4e0ef;
+}
+.card
+{
+    
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px #d4e0ef;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    min-width: 100px;
+    max-width: 180px;
+    height: auto;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Outfit;
+}
+
+.card-img
+{
+    border-radius: 15px;
+    width: 180px;
+
+}
+
+.bold-text
+{
+    font-weight: 700;
+    text-align: center;
+}
+
+.normal-text
+{
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 210px;
+        max-width: 210px;
+        height: auto;
+        padding: 10px;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: Outfit;
+    }
+    .card-img {
+        width: 210px;
+    }
+
+}
